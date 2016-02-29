@@ -1,0 +1,135 @@
+body{
+    font-family: Tahoma, Verdana, sans-serif;
+    width:100%;
+    margin: 0 auto;
+}
+h3, th{
+    color:#2da9e2;
+}
+h3{
+    padding: 0px 0px 0px 15px;
+}
+p{
+    color:#b8b9ba;
+    padding: 0px 0px 20px 15px;
+}
+th{
+    font-weight: normal;
+}
+td{
+    color:#808080;
+}
+i{
+    color:#ff0000;
+    cursor: pointer;
+    padding-right:4px;
+    text-shadow:1px 1px 1px #a9a9a9;
+}
+/*Collapse Icon & Text*/
+.collapseArea{
+    color:#b8b9ba;x
+    text-align: right;
+    font-size:12px;
+    position: relative;
+    left:103px;
+    top:9px;
+}
+.collapseIconGroup{
+    position:relative;
+    top:19px;
+    left:-30px;
+}
+.iconSquare{
+    width:20px;
+    height:20px;
+    border-radius:4px;
+    text-align: right;
+    border:1px #c8c8c8 solid;
+}
+.iconSquare hr{
+    position:relative;
+    background-color: #bbbbbb;
+    text-align: right;
+    top:-8px;
+    width:12px;
+    height:1px;
+}
+.table>thead>tr>th{
+    background-color: #ffffff;
+    border-bottom:1px solid #e3e3e3;
+    height:70px;
+    vertical-align: middle;
+}
+.table>thead>tr>th, .table>tbody>tr>td {
+    padding-left: 19px;
+    border-right:1px solid #e8e8e8;
+    border-top: none;
+}
+.table-striped>thead>tr:nth-of-type(odd){
+    background-color:#f6f6f6;
+    border-right:1px solid #eaeaea;
+}
+.panel{
+    border-radius: 6px;
+}
+/*Overlay Content*/
+.modal-content {
+    background-color: #f9f9f9;
+    width:inherit;
+    height:inherit;
+    margin: 0 auto;
+
+}
+.modal-body{
+    position:relative;
+    left:14%;
+}
+.modal-body span{
+    color:#2da9e2;
+    text-align: right;
+    text-shadow: 0px 1px 0px #ccc;
+}
+.modal .fade{
+    -webkit-transition: opacity .5s linear, none;
+    -moz-transition: opacity .5s linear, none;
+    -ms-transition: opacity .3s linear, none;
+    -o-transition: opacity .3s linear, none;
+    transition: opacity .3s linear, none;
+    top: 50%;
+}
+.toggleItem{padding: 6px 9px; cursor: pointer;
+}
+.vertical-alignment-helper{
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+.bg-error{
+    background-color:rgb(251,175,50);
+    box-shadow: 4px 4px 4px #a9a9a9;
+}
+.w8,.w12,.w24,.w96{
+    display: inline-block;
+}
+.w8{
+    width: 80px;
+}
+.w12{
+    width: 120px;
+}
+.w24{
+    width: 240px; margin: 3px;
+}
+.w96{
+    width: 97%; margin: 3px;
+}
+
+
+
+
+
+
